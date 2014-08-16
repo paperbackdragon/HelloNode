@@ -44,7 +44,6 @@ function upload(response, request) {
     });
   });
 
-
   response.writeHead(200, {
     'Content-Type': 'text/html'
   });
