@@ -1,6 +1,6 @@
 var querystring = require('querystring'),
   fs = require('fs'),
-  formidable = require('formidable');
+  formidable = require('/usr/lib/node_modules/formidable');
 
 function start(response) {
   console.log('Request handler "start" was called.');
